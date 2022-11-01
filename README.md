@@ -10,9 +10,12 @@ Cancel/Exit (selecting this option should exit the program)
 
 
 The flow of the program is as follows
-Run the cli program - ```markdown
+Run the cli program - 
+```markdown
 go run main.go
 ``` 
+
+
 A prompt asking you to enter your default pin is displayed,
 once the entered pin is successful, 
 you are asked to change pin immediately.
