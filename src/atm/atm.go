@@ -70,6 +70,7 @@ func withdrawFunds() {
 		fmt.Println("Invalid amount")
 	} else {
 		balance = balance - amount
+		fmt.Println("Withdrawal successful")
 		fmt.Println("Your new balance is", strconv.Itoa(balance))
 	}
 	continueBanking()
